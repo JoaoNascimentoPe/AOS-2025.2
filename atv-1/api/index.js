@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors"
 
 const app = express();
-app.use(cors({ origin: "http://127.0.0.1:5500/index.html" }))
+app.use(cors({ origin: "http://127.0.0.1:5500" }))
 
 const frases = [
   "Acredite no seu potencial. Você é mais forte do que pensa.",
